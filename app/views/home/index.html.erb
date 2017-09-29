@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>mitisgood</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body id="myPage">
+  	<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>mitisgood</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">產品</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">產品</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>保護產品的好幫手</h2>
+<p>避免運送中損壞</p>
+<button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i>馬上至右下角聯絡客服</button>
+<p>1.想改善更好的包裝</p>
+<p>2.有新的設計包裝想實現</p>
+<p>3.需要製作上的建議</p>
+<div class="w3-row"><br>
+
+
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>關於我們的服務</h2>
+<p>從事協助企業製作內銷外銷包裝,涵蓋盒子、汽修包、禮盒、棉紙,已經有超過50家企業選擇我們了,讓我們替您省去寶貴的時間,並且準時送達!</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  
+  <div class="w3-container">
+  <h3>外銷零件貿易商</h3>
+  <h4>Trade</h4>
+  <p>如果您從事汽車材料外銷,會需要一家黎好的外包裝廠商</p>
+  <p>John Dapper</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  
+  <div class="w3-container">
+  <h3>接案設計師</h3>
+  <h4>Designer</h4>
+  <p>好的盒子,讓顧客對產品有更佳的驚喜,絕佳的好選擇</p>
+  <p>Roberto Suave</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card-2 w3-white">
+  
+  <div class="w3-container">
+  <h3>外銷零件貿易商</h3>
+  <h4>Trade</h4>
+  <p>保護產品在運送中的損壞,讓顧客拿到一個完美的體驗</p>
+  <p>Barry Bespoke</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>產品</h2>
+    <p>我們提供的產品</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">防潮牛皮紙</p>
+        </li>
+        <li class="w3-padding-16"><b>汽車零件外銷</b> 凝膜牛皮紙</li>
+        <li class="w3-padding-16"><b>尺寸</b> 客製化</li>
+        <li class="w3-padding-16"><b>件數</b> 最少500</li>
+        <li class="w3-padding-16"><b>交貨快</b> 貨運出貨</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> </h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 馬上聯絡客服</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">禮盒包裝材料</p>
+        </li>
+        <li class="w3-padding-16"><b>盒子</b> </li>
+        <li class="w3-padding-16"><b>尺寸</b> 客製化</li>
+        <li class="w3-padding-16"><b>件數</b> 最少500</li>
+        <li class="w3-padding-16"><b>交貨方式</b> 自取或貨運</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> </h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 馬上聯絡客服</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">棉紙包裝紙</p>
+        </li>
+        <li class="w3-padding-16"><b>衣服棉紙</b> </li>
+        <li class="w3-padding-16"><b>鞋子棉紙</b> </li>
+        <li class="w3-padding-16"><b>禮盒棉紙</b> </li>
+        <li class="w3-padding-16"><b>交貨</b> 貨運出貨</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i></h2>
+          <span class="w3-opacity"></span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 馬上聯絡客服</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p>台北市士林區社子街88號</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Taipei,Taiwan</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +886 2812-1781</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> yh8988.wang@msa.hinet.net</p>
+    </div>
+    <div class="w3-col m7">
+      
+    </div>
+  </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:420px;"></div>
+<script>
+function myMap()
+{                               
+  myCenter=new google.maps.LatLng(25.0874893, 121.5037212);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/groups/726115414218459/?ref=aymt_homepage_panel" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <p>Powered by <a href="" target="_blank">mitisgood</a></p>
+  <p>Location at <a href="" target="_blank">Taipei,Taiwan</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+    <%= yield %>
+  </body>
+</html>
